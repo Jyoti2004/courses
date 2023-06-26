@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4a4e69;
+}
+
+.app {
+    background-color: #4a4e69;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #22223b;
+    padding: 15px 0px;
+}
+
+.navbarTitle {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.filter {
+    width: 91.6%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+    row-gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.filterBtn {
+    font-size: 1.125 rem;
+    line-height: 1.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5 rem;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    color: white;
+    opacity: 60%;
+    font-size: medium;
+}
+
+.filterBtn:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.filterBtnSelected {
+    font-size: 1.125 rem;
+    line-height: 1.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5 rem;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: white;
+    opacity: 80%;
+    font-size: medium;
+}
+
+.coursesCard {
+    width: 100%;
+    max-height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.card {
+    width: 300px;
+    background-color: #22223b;
+    opacity: 80%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.allCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgComp {
+    position: relative;
+}
+
+.likedBtn {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0.5rem;
+    bottom: -12px;
+    outline: none;
+    border: none;
+}
+
+.coursePara{
+    padding: 1rem;
+}
+
+.courseTitle{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.courseDes{
+    color: white;
+    font-size: medium;
+}
